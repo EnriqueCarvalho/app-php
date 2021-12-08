@@ -1,0 +1,45 @@
+.modal {
+    position: fixed;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, .9);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modal h2 {
+    margin-top: 20%;
+    opacity: 1;
+}
+
+.modal:target {
+    opacity: 9;
+    pointer-events: auto;
+}
+
+.modal>div {
+    width: 400px;
+    margin: 10% auto;
+    padding: 15px 20px;
+    background: #fff;
+}
+
+.fechar {
+    position: absolute;
+    width: 40px;
+    right: 5px;
+    top: 5px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 5px;
+    background: #ff4545;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+}

@@ -1,0 +1,33 @@
+.container-menu {
+    display: grid;
+    grid-template-columns: 1fr 5fr 5fr 1fr;
+    grid-template-rows: 10vh 90vh;
+    background-color: #f6f6f6;
+}
+
+.container-menu .menu {
+    display: inline;
+    grid-column: 1/5;
+    grid-row: 2/3;
+}
+.menu div{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    height: 10vh;
+    width:100%;
+    border-bottom: 1px solid #ccc; 
+}
+img{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+
+
+.menu a {
+    
+    font-size: 150%;
+    color: #606060;
+  
+}

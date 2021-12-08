@@ -1,0 +1,60 @@
+.produtos .prod {
+    font-size: 80%;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-template-rows: 8vh 4vh 4h 4vh ;
+    padding: 2%;
+    height: 15vh;    
+    color: #606060;
+    border-bottom: 1px solid #00498B;
+}
+h1{
+    background-color: #f6f6f6;
+    color: #606060;
+    font-size: 150%;
+    margin-bottom: 20px;
+}
+
+.total{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-weight: bold;
+}
+.dataCompra{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: right;
+}
+
+
+.valorPago{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dataUltPag{
+    grid-row: 3/4;
+    grid-column: 1/3;
+}
+.dataVenc{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    font-weight: bold;
+}
+.pagar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 2/3;
+    grid-row: 3/5;
+    color: #f6f6f6;
+    font-weight: bold;
+    height: 100%;
+    background-color: #28a745;
+    border-radius: 1em;
+    
+    
+}
+

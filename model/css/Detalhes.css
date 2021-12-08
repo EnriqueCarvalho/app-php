@@ -1,0 +1,179 @@
+.produtos {
+    grid-column: 1/5;
+    grid-row: 2/3;
+
+}
+
+.produtos div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.produtos div p {
+    height: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 90%;
+}
+
+input {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3%;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+
+.confirmar {
+    margin-top: 40px;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 0.51rem;
+    height: 40px;
+    display: none;
+}
+
+div .detalhes {
+    border: none;
+    background-color: #ccc;
+    font-weight: bold;
+    font-size: 115%;
+}
+
+div .detalhesDiv {
+    border: none;
+}
+
+table tr td {
+
+    height: 30px;
+}
+
+table {
+    width: 100%;
+}
+
+.right {
+    text-align: right;
+}
+
+.finalizar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.finalizar input {
+    width: 100%;
+    font-size: 110%;
+    margin: 0;
+
+
+}
+
+.finalizar label {
+    width: 45%;
+    font-size: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.entregue {
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 0.5em;
+
+}
+
+.cancelarPedido {
+    background-color: #ff4545;
+    color: #fff;
+    border-radius: 0.5em;
+
+}
+
+.cancelamentoPedido {
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 99%;
+    margin-top: 30px;
+
+}
+
+.cancelamentoPedido label {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    display: block;
+    width: 90%;
+    margin-top: 3%;
+    height: 100px;
+    border: 1px solid #ccc;
+}
+
+form.edicao label {
+    width: 100%;
+    font-weight: bold;
+}
+
+form.edicao textarea{
+    border:none;
+    background-color: #f6f6f6;
+}
+
+form.edicao input {
+    font-size: 100%;
+    margin-left: 0;
+    height: 20px;
+    text-align: left;
+    width: 100%;
+    border: none;
+    background-color: #f6f6f6;
+    color: #606060;
+
+}
+
+form.edicao textarea:focus , input:focus{
+    box-shadow:  0 0 0 0;
+    outline: 0;
+}
+
+.btn-edit{
+    font-size: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    border-radius: 0.51rem;
+    height: 40px;
+    width: 80%;
+    align-self: center;
+    cursor: pointer;
+    color: #f6f6f6;
+}
+ button.habilitarEdicao{    
+    background-color: #ffc107;
+    color: #000;
+    
+}
+.confirmarAlteracao{
+    display: none;
+    background-color: #28a745;
+
+}
+.cancelarAlteracao{
+    display: none;  
+    background-color: #ff4545;
+   
+}
+

@@ -1,0 +1,117 @@
+
+input:invalid {
+    border-color: red !important;
+  }
+  input:valid {
+    border-color: green !important;
+  }
+.item {
+    grid-column: 1/5;
+    grid-row: 2/3;
+}
+
+.item h2 {
+    font-weight: bold;
+    font-size: 180%;
+    padding: 2%;
+    background-color: #003059;
+    color: #fff;
+    text-align: center;
+}
+
+.item .it {
+    font-size: 80%;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-template-rows: 5vh 3vh 4vh 3vh 10vh;
+    padding: 2%;
+    height: 25vh;
+    background-color: #f6f6f6;
+    color: #00000f;
+}
+
+.nome {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-weight: bold;
+}
+
+.descri {
+    grid-column: 1/2;
+    grid-row: 2/4;
+    font-size: 75%;
+}
+
+.valor {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    text-align: right;
+    font-weight: bold;
+}
+
+.desconto {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: right;
+}
+
+.qtde {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: right;
+    font-weight: bold;
+}
+
+
+.form{
+    grid-column: 1/3;
+    grid-row:5/6 ;
+
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+input {
+    display: block;
+    margin-top: 3%;
+    height: 5vh;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+label{
+    margin-top: 5vh;
+}
+
+
+.lab-calc{
+    grid-column: 1/2;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 3vh;
+    height: 5vh;
+    width: 80%;
+    background-color: #003059;
+    color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    
+}
+
+.add-item {
+    grid-column: 1/3;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center; 
+    visibility: hidden;
+}
+
+
+.add-item input {   
+
+    background-color: green;
+    border-radius: none;
+    color: #f6f6f6;
+}

@@ -1,0 +1,37 @@
+.container-menu {
+    display: grid;
+    grid-template-columns: 1fr 5fr 5fr 1fr;
+    grid-template-rows: 10vh 90vh;
+    background-color: #f6f6f6;
+}
+
+.container-menu .menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+    justify-content: space-between;
+    align-content: start;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.menu div {
+    height: 15vh;
+    width: 20vh;
+
+}
+
+
+.menu div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+}
+
+.menu a {
+    margin-bottom: 80px;
+    color: #606060;
+    text-align: center;
+
+}

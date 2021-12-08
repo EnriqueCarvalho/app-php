@@ -1,0 +1,57 @@
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+
+}
+
+.add-clientes {
+    display: flex;
+    justify-content: center;
+
+}
+
+form {
+    margin-top: 5vh;
+    text-align: start;
+    width: 95%;
+    
+}
+ form div{
+    margin-bottom: 5vh;
+}
+
+input {
+    display: block;
+    margin-top: 3%;
+    height: 7vh;
+    width: 95%;
+    border: 1px solid #ccc
+}
+.menor{
+    width: 30%;
+ 
+}
+
+input:valid {
+    border-color: #278C07 !important;
+}
+input.semCep{
+    width: 0;
+    height: 0;
+    margin-top: 1vh;
+    display: inline;
+    
+}
+
+textarea{
+    display: block;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    height: 20vh;
+    width: 95%;
+}
